@@ -1,0 +1,26 @@
+{
+    "name": "playwright-demos",
+    "version": "1.0.0",
+    "description": "playwright examples",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "engines": {
+        "node": ">=10.15.0"
+    },
+    "keywords": [
+        "node.js",
+        "playwright",
+        "puppeteer"
+    ],
+    "author": "Mani Kiran Nalabolu",
+    "license": "ISC",
+    "dependencies": {
+        "playwright": "^1.7.1"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.27.1"
+    }
+}
