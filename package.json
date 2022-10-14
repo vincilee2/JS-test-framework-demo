@@ -5,8 +5,10 @@
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
-        "test": "jest",
-        "playwright": "npx playwright test --reporter=html"
+        "jest": "jest --coverage",
+        "playwright": "npx playwright test --reporter=html",
+        "mocha": "npx mocha ./mocha-demo/__test__",
+        "mocha-c": "npx nyc mocha ./mocha-demo/__test__ "
     },
     "keywords": [
         "node.js",
