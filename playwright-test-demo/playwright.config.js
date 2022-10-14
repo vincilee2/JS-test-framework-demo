@@ -8,6 +8,8 @@ const config = {
 
   retries: process.env.CI ? 2 : 0,
 
+  testMatch: /.*(spec1)\.(js|ts|mjs)/,
+
   use: {
 
     trace: 'on-first-retry',
