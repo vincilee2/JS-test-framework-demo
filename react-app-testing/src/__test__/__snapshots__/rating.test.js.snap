@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Rating correctly with default color 1`] = `
+<div
+  className="star-rating"
+>
+  <div
+    className="star-rating-top"
+    style={
+      {
+        "color": "#EE0000",
+        "width": "50%",
+      }
+    }
+  >
+    <span />
+    <span />
+    <span />
+    <span />
+    <span />
+  </div>
+  <div
+    className="star-rating-bottom"
+  >
+    <span />
+    <span />
+    <span />
+    <span />
+    <span />
+  </div>
+</div>
+`;
+
+exports[`render Rating correctly with specific color 1`] = `
+<div
+  className="star-rating"
+>
+  <div
+    className="star-rating-top"
+    style={
+      {
+        "color": "#EF0000",
+        "width": "50%",
+      }
+    }
+  >
+    <span />
+    <span />
+    <span />
+    <span />
+    <span />
+  </div>
+  <div
+    className="star-rating-bottom"
+  >
+    <span />
+    <span />
+    <span />
+    <span />
+    <span />
+  </div>
+</div>
+`;

@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {echo} from '../common/utils'
+import {echo} from '../../common/utils'
 const STATUS = {
   HOVERED: 'hovered',
   NORMAL: 'normal',
